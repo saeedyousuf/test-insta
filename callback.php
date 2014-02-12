@@ -15,12 +15,5 @@ $currentUser = $instagram->getCurrentUser();
 //$media = $instagram->searchMedia( $lat, $lng );
 $tags = $instagram->searchTags( 'tags' );
 $users = $instagram->searchUsers( 'username' );
-echo "<pre>"; print_r($currentUser);
-
-
-
-//
-//$instagram = new Instagram\Instagram;
-//$instagram->setAccessToken( $_SESSION['instagram_access_token'] );
-//$current_user = $instagram->getCurrentUser();
+echo "<pre>"; print_r($currentUser); exit;
 ?>
