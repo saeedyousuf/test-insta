@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-instagram-api/php-instagram-api": "dev-master"
+    }
+}
