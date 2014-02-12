@@ -3,6 +3,7 @@
 
 include 'auth.php';
 
+echo "Hello World";
 $accessToken = $auth->getAccessToken( $_GET['code'] );
 $_SESSION['instagram_access_token'] = $accessToken;
 //echo "<pre>"; print_r($_SESSION); exit;
